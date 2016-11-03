@@ -55,6 +55,7 @@ return [
     'charset' => 'utf8',
 ];
 ```
+Remember to replace localhost with your MySQL database server's ip address or domain name.
 
 
 RUNNING
