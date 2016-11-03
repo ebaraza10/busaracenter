@@ -35,18 +35,19 @@ Set the cookie validation key in `busaracenter/config/web.php` file to your secr
 ```php
 'request' => [
     // !!! insert a secret key in the following (if it is empty) - this is required by cookie validation
-    'cookieValidationKey' => '<secret random string goes here>',
+    'cookieValidationKey' => 'Your secret key',
 ],
 ```
 
 ### Database
+Execute the sql commands found in the database_alters/database_script.sql to create the database.
 
-Edit the file `config/db.php` with real data, for example:
+Edit the file `config/db.php` with your database credentials, for example:
 
 ```php
 return [
     'class' => 'yii\db\Connection',
-    'dsn' => 'mysql:host=localhost;dbname=yii2basic',
+    'dsn' => 'mysql:host=localhost;dbname=busaracenter',
     'username' => 'Your database username',
     'password' => 'Your database password',
     'charset' => 'utf8',
