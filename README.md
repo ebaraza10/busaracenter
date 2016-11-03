@@ -1,3 +1,5 @@
+This application was developed using PHP and MySQL.
+PHP's Yii 2 framework was used in the development.
 
 DIRECTORY STRUCTURE
 -------------------
@@ -35,7 +37,7 @@ Set the cookie validation key in `busaracenter/config/web.php` file to your secr
 ```php
 'request' => [
     // !!! insert a secret key in the following (if it is empty) - this is required by cookie validation
-    'cookieValidationKey' => 'Your secret key',
+    'cookieValidationKey' => 'Your secret key/Cookie validation key',
 ],
 ```
 
